@@ -1,0 +1,40 @@
+.timer {
+	// border: 1px solid white;
+
+	.timer-container {
+		max-width: 375px;
+		margin: 0 auto;
+		border: 1.2rem solid rgba(128, 128, 128, 0.5);
+		border-radius: 100%;
+		aspect-ratio: 1;
+		padding: 0.8rem;
+
+		.inner-circle {
+			border: 0.7rem solid palevioletred;
+			border-radius: 100%;
+			aspect-ratio: 1;
+
+			.timer-display {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				border-radius: 100%;
+				aspect-ratio: 1;
+
+        .time {
+          font-size: clamp(5rem,23vw, 8rem);
+          font-weight: 700;
+        }
+
+        .start-stop {
+          text-transform: uppercase;
+          letter-spacing: 1rem;
+          font-size: 1.4rem;
+          font-weight: 600;
+        }
+			}
+		}
+	}
+}

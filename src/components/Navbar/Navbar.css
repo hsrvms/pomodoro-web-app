@@ -1,0 +1,17 @@
+#navbar {
+  background: black;
+  border-radius: 4rem;
+  padding: 0.5rem 0.5rem;
+}
+#navbar .navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+#navbar .navbar-container .navbar-item {
+  background: none;
+  width: 100%;
+  font-size: clamp(0.65rem, 2.5vw, 1.2rem);
+}
+#navbar .navbar-container .navbar-item.active {
+  background: blueviolet;
+}/*# sourceMappingURL=Navbar.css.map */
