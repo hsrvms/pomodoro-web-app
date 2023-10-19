@@ -13,5 +13,5 @@
   font-size: clamp(0.65rem, 2.5vw, 1.2rem);
 }
 #navbar .navbar-container .navbar-item.active {
-  background: blueviolet;
+  background: palevioletred;
 }/*# sourceMappingURL=Navbar.css.map */

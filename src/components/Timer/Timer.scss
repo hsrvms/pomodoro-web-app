@@ -1,5 +1,5 @@
 .timer {
-	// border: 1px solid white;
+	user-select: none;
 
 	.timer-container {
 		max-width: 375px;
@@ -13,6 +13,7 @@
 			border: 0.7rem solid palevioletred;
 			border-radius: 100%;
 			aspect-ratio: 1;
+			cursor: pointer;
 
 			.timer-display {
 				display: flex;
